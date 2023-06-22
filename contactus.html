@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+<body>
+        <section class="sub-header">
+            <nav>
+                <a href="miniproject.html"><img src="images/bg.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"><span class="navbar-toggler-icon"></span></button>
+                    <i class="bi bi-x" onclick="hideMenu()"></i>
+                    <i class="bi bi-list" onclick="showMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutus.html">ABOUT</a></li>
+                        <li><a href="courses.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contactus.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+                   <h1>Contact Us</h1>
+        </section>
+
+            <!----- contact us ------------>
+
+            <section class="location">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.859584622276!2d121.04453087340916!3d14.
+                550021185930346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8f03ca6e8eb%3A0xf382855249943b23!2sGoogle
+                %20Philippines!5e0!3m2!1sen!2sph!4v1687273185773!5m2!1sen!2sph" width="600" height="450" style="border:0;" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </section>
+
+            <section class="contact-us">
+
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="bi bi-house"></i>
+                            <span>
+                                <h5>E Square, Crescent Park Residences 38th Floor</h5>
+                                <p>Seven/NEO, Building 5th Ave, Manila, 1016 Metro Manila</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="bi bi-phone"></i>
+                            <span>
+                                <h5>+63 9457119977</h5>
+                            <p>Monday to Saturday, 10AM to 6PM</p>
+                            </span>
+                        </div>
+                        <div>
+                        <i class="bi bi-envelope"></i>
+                            <span>
+                                <h5>LoremUniversity@gmail.com</h5>
+                            <p>Email us your query</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+
+                    <form action="formhandler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="text" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+
+                    </div>
+                </div>
+
+            </section>
+            
+
+            <!--------- Footer ----------->
+
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sequi nobis molestias obcaecati facere placeat esse,<br> 
+                    iste magni maiores consectetur error eum dolorem sed officia voluptas,
+                </p>
+                <div class="icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+                <p>Made by Vida Lorenzo Padilla</p>
+            </section>
+
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
