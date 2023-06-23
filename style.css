@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 .header {
     min-height: 100vh;
@@ -15,6 +20,12 @@ nav {
     padding: 2% 6%;
     justify-content: space-abetween;
     align-items: center;
+}
+nav .navbar-brand {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing:
 }
 nav img {
     width: 200px;
