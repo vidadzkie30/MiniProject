@@ -1,11 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
-    outline: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
 }
 .header {
     min-height: 100vh;
@@ -21,12 +16,6 @@ nav {
     justify-content: space-abetween;
     align-items: center;
 }
-nav .navbar-brand {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 500;
-    letter-spacing:
-}
 nav img {
     width: 200px;
 }
@@ -40,7 +29,7 @@ nav img {
     padding: 8px 12px;
     position: relative;
 }
-.nav-links ul li a {
+.nav-links ul li {
     color: #fff;
     text-decoration: none;
     font-size: 13px;
